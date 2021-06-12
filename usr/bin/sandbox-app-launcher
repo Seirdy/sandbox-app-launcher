@@ -191,6 +191,14 @@ setup() {
 }
 
 setup_or_check() {
+  ## Some folders or files might be non-existing in case SAL is used outside of
+  ## or ported to other Linux distributions not using Debian package maintainer
+  ## script: debian/sandbox-app-launcher.postinst
+  ## Might also happen in other corner cases such as incomplete installation
+  ## (due to power loss, freeze during initial installation / upgrade or user
+  ## error deleting files). Better to check and potentially error out early
+  ## than getting difficult to understand error messages later.
+
   for dir in "${main_app_dir}" "${auto_dir}" "${appdata_dir}"; do
     ## Check if the required directories exist.
     if ! [ -d "${dir}" ]; then
