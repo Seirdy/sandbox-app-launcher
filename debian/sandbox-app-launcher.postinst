@@ -31,6 +31,8 @@ if ! [ -d "${shared_dir}" ]; then
   mkdir -m 1777 "${shared_dir}"
 fi
 
+## Cannot use a symlink due to apparmor issues.
+## https://github.com/Whonix/sandbox-app-launcher/pull/60#pullrequestreview-678111466
 cp "${wrapper_script}" "${wrapper_script}-wx"
 
 ## Generate seccomp filter.
