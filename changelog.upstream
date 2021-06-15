@@ -1,3 +1,43 @@
+commit 4cdf0bd8a2ce3e19f751d12a911c2fb064b568b8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 12 07:18:14 2021 -0400
+
+    comment
+
+commit d9ffa6f21294e24f5ad58d39ad5a5bf5bd1b907f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 12 07:12:38 2021 -0400
+
+    comment
+
+commit 2f916661f93f99213686109794e24467215d9709
+Merge: f2db635 825e795
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 12 07:08:08 2021 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 825e7958720bc39ae8f977ba1dc2354c1c6bf1a1
+Merge: f2db635 b818157
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 12 07:07:24 2021 -0400
+
+    Merge pull request #62 from madaidan/remove-if
+    
+    Remove if statement when copying wrapper-script-wx
+
+commit b818157203ff1ecba84e07e9565457db7153528a
+Author: madaidan <50278627+madaidan@users.noreply.github.com>
+Date:   Fri Jun 11 21:11:59 2021 +0000
+
+    Remove if statement when copying wrapper-script-wx
+
+commit f2db6350a53d23fe800d0e82e58a181405e5ccb2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 9 14:08:53 2021 -0400
+
+    bumped changelog version
+
 commit 01785426256cf1f4e1087c7bfdf8525acee068dc
 Merge: 6a4c8df feae60d
 Author: Patrick Schleizer <adrelanos@whonix.org>
